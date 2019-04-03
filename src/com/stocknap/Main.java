@@ -91,8 +91,8 @@ public class Main {
         return m3;
     }
 
-    public static void main(String[] args) {
-	// write your code here
+    public static void runFibonachi(){
+        // write your code here
 
         System.out.println(0+"  : "+ 0);
         System.out.println(1+"  : "+1);
@@ -100,5 +100,11 @@ public class Main {
             System.out.println(i+"  : "+nthFibonachi(i-1)[0][0]);
         }
 
+    }
+
+    public static void main(String[] args) {
+	        //runFibonachi();
+        //Multithreading.runFlow(args);
+        MultithreadingCommunication.runFlow(args);
     }
 }
